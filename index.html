@@ -2315,8 +2315,15 @@
                     //AMLT does not have a testnet token
                 };
 
+                const UBI_TOKEN = { token: 'UBI', name: 'Universal Basic Income', icon: 'https://raw.githubusercontent.com/rsksmart/rsk-contract-metadata/master/images/amlt.png',
+                    30:{symbol:'rUBI', address:'', decimals:18},
+                    31:{symbol:'rUBI', address:'', decimals:18},
+                    1:{symbol:'UBI', address:'0xdd1ad9a21ce722c151a836373babe42c868ce9a4', decimals:18},
+                    42:{symbol:'UBI', address:'0xDdAdE19B13833d1bF52c1fe1352d41A8DD9fE8C9', decimals:18},
+                };
+
                 // Remove INV token because its paused on mainnet
-                const TOKENS = [ BUND_TOKEN, USDT_TOKEN, DAI_TOKEN, SAI_TOKEN, WETH_TOKEN, LINK_TOKEN, DOC_TOKEN, BITPRO_TOKEN, RIF_TOKEN, TUSD_TOKEN, USDC_TOKEN, ZRX_TOKEN, FLIXX_TOKEN, RFOX_TOKEN, OLD_TOKEN, AMLT_TOKEN, ];
+                const TOKENS = [ BUND_TOKEN, USDT_TOKEN, DAI_TOKEN, SAI_TOKEN, WETH_TOKEN, LINK_TOKEN, DOC_TOKEN, BITPRO_TOKEN, RIF_TOKEN, TUSD_TOKEN, USDC_TOKEN, ZRX_TOKEN, FLIXX_TOKEN, RFOX_TOKEN, OLD_TOKEN, AMLT_TOKEN, UBI_TOKEN, ];
                 // --------- TOKENS  END --------------
             </script>
         </div>
